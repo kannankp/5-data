@@ -1,0 +1,5 @@
+A dataset is a sample of the population. A dataset is not a random variable, which has a precise mathematical definition, i.e. it is a (measurable) function (you can ignore the "measurable" adjective!): you can simply think of a random variable as a map between outcomes of e.g. an experiment and real numbers.
+
+A dataset (or a sample) contains N "realisations" (or "outcomes") of one or more random variables, where N is the size of the dataset. More precisely, each value associated with each feature of the dataset is (usually) or can be associated with one random variable: when you sample from the population (i.e., you get one row of the dataset), each of the random variables is "realized", that is, you obtain one of the concrete outcomes that the associated random variable can take.
+
+A dataset can thus be considered the realization(s) of a random variable, if there is only one feature, or of multiple random variables (or, equivalently, of a multi-dimensional or multi-variate random variable), if there are multiple features.
